@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+There where some redundant checks that I thing was simplified by adding a guard clause on line 8. My general aim was to reduce complexity by reducing the number of if else clauses the reader would have to follow.  
